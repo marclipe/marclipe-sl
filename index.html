@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/developer_programming_icon.svg" type="image/x-icon">
 
     <!--===== BOX ICONS =====-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -48,7 +49,8 @@
             </div>
 
             <div class="home_social">
-                <a href="https://www.linkedin.com/in/marcosfelipesl/" target="_blank" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.linkedin.com/in/marcosfelipesl/" target="_blank" class="home_social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
                 <a href="mailto:marcosfelipek10@gmail.com" target="_blank" class="home_social-icon"><i
                         class='bx bxl-gmail'></i></a>
                 <a href="https://github.com/marclipe" target="_blank" class="home_social-icon"><i
@@ -151,7 +153,8 @@
                     <img src="assets/img/androide.png" alt="">
                 </a>
                 <a href="https://marclipe.github.io/read-song/" class="work_img">
-                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" target="_blank" alt="">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        target="_blank" alt="">
                 </a>
                 <a class="work_img" href="https://marclipe.github.io/projeto-cordel/" target="_blank">
                     <img src="assets/img/cordel-moderno.jpg" alt="">
@@ -159,7 +162,8 @@
                 <a href="https://marclipe.github.io/Coffe-Culture/index" target="_blank" class="work_img">
                     <img src="assets/img/coffe_culture.png" alt="">
                 </a>
-                <a href="https://marclipe.github.io/marcscript-/Verificador-de-Idade/modelo.html" target="_blank" class="work_img">
+                <a href="https://marclipe.github.io/marcscript-/Verificador-de-Idade/modelo.html" target="_blank"
+                    class="work_img">
                     <img src="assets/img/V-idade.png" alt="">
                 </a>
                 <a href="https://marclipe.github.io/gradehorarios/table.html" target="_blank" class="work_img">
@@ -177,7 +181,11 @@
             <div class="contact_container bd-grid">
                 <form action="https://formsubmit.co/marcosfelipek10@gmail.com" method="POST" class="contact_form">
                     <input type="text" placeholder="Nome" class="contact_input" required>
-                    <input type="email" placeholder="Email" class="contact_input">
+                    <input type="email" placeholder="Email" class="contact_input" required>
+                    <!--Disable reCAPTCHA _captcha-->
+                    <input type="hidden" name="_captcha" value="false">
+                    <!--Next-->
+                    <input type="hidden" name="_next" value="https://marclipe.github.io/MarcLipe-/thanks.html">
                     <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
 
                     <input type="submit" value="Enviar" class="contact_button button">

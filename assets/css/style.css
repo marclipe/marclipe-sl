@@ -29,7 +29,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margem =====*/
 :root {
     --mb-1: 0.5rem;
     --mb-2: 1rem;
@@ -145,7 +145,7 @@ img {
     font-weight: var(--font-semi);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .nav_menu {
         position: fixed;
         top: var(--header-height);
@@ -377,6 +377,92 @@ img {
     transform: scale(1.1);
 }
 
+/*===== CONTACT =====*/
+/*Formulário*/
+.contact_input {
+    width: 100%;
+    font-size: var(--normal-font-size);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+}
 
+.contact_button {
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    /*alinhando a esquerda hein*/
+    margin-left: auto;
+}
 
+/*===== CONTACT =====*/
+.footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+}
 
+.footer_title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+}
+
+.footer_social {
+    margin-bottom: var(--mb-4);
+}
+
+.footer_icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+    .section {
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .section-title {
+        margin-bottom: var(--mb-6);
+    }
+    .section-title::after {
+        width: 80px;
+        top: 3rem;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+
+    .nav_list {
+        display: flex;
+        padding-top: 0;
+    }
+
+    .nav_item {
+        margin-left: var(--mb-6);
+        margin-bottom: 0;
+    }
+
+    .nav_toggle {
+        display: none;
+    }
+
+    .nav_link {
+        color: var(--second-color);
+    }
+
+    .home {
+        height: 100vh;
+    }
+}

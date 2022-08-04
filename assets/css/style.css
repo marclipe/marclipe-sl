@@ -404,6 +404,7 @@ img {
     text-align: center;
     font-weight: var(--font-semi);
     padding: 2rem 0;
+    font-size: 2rem;
 }
 
 .footer_title {

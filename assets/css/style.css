@@ -422,6 +422,9 @@ img {
     margin: 0 var(--mb-2);
 }
 
+.footer__name {
+    font-size: 1rem;
+}
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px) {
     body {

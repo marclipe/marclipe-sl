@@ -345,8 +345,13 @@ img {
 }
 
 .skills_js {
+    width: 75%;
+}
+
+.skills_git {
     width: 65%;
 }
+
 
 .skills_img {
     border-radius: .5rem;
